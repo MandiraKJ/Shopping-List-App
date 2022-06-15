@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PART2 Shopping List</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="product_id">Product ID</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+</resources>

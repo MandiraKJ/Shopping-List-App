@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:elevation="10dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:translationX="70px">
+
+        <TextView
+            android:id="@+id/recycle_id"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/recycle_name"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="White Shoes"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/recycle_price"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="250"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/recycle_quantity"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="11"
+            android:textSize="25dp" />
+
+
+        <ImageButton
+            android:id="@+id/deleteBtn"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:background="#ffff"
+            android:src="@drawable/delete" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>
